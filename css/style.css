@@ -11,5 +11,31 @@
   /* debug */
   background-color: lightgrey;
   height: 100vh;
+  /* fine debug */
+}
+
+/* header */
+header{
   /* debug */
+  background-color: yellow;
+  height: 200px;
+  /* fine debug */
+}
+
+/* main */
+main{
+  margin-top: 5px;
+  /* debug */
+  background-color: green;
+  height: 200px;
+  /* fine debug */
+}
+
+/* footer */
+footer{
+  margin-top: 5px;
+  /* debug */
+  background-color: lightblue;
+  height: 200px;
+  /* fine debug */
 }
