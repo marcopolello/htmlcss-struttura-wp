@@ -1,0 +1,15 @@
+/* regole generali web page */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* regole contenitore */
+#container{
+  margin: 10px;
+  /* debug */
+  background-color: lightgrey;
+  height: 100vh;
+  /* debug */
+}
