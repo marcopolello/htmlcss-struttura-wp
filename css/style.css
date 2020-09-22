@@ -8,9 +8,9 @@
 /* regole contenitore */
 #container{
   margin: 10px;
-  /* debug */
+  /* debug *
   background-color: lightgrey;
-  height: 100vh;
+  height: 100%;
   /* fine debug */
 }
 
@@ -18,24 +18,68 @@
 header{
   /* debug */
   background-color: yellow;
-  height: 200px;
+  height: 120px;
   /* fine debug */
 }
 
 /* main */
 main{
-  margin-top: 5px;
-  /* debug */
+  margin: 5px 0;
+  /* debug *
   background-color: green;
   height: 200px;
   /* fine debug */
 }
+.clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* regole generali aside */
+.side{
+  float: left;
+  width: 25%;
+  /* debug *
+  background-color: #e91e63;
+  height: 200px;
+  /* fine debug */
+}
+
+/* parte sinistra */
+.left{
+  height: 320px;
+  background-color: #e91e63;
+}
+
+/* section centrale */
+section{
+  float: left;
+  width: 46%;
+  margin: 0 2%;
+  /* debug */
+  background-color: #9c27b0;
+  height: 400px;
+  /* fine debug */
+}
+
+/* parte destra */
+.right{
+  /* debug *
+  height: 390px;
+  /* fine debug */
+}
+.square{
+  width: 100%;
+  margin-bottom: 5px;
+  background-color: #e91e63;
+  height: 190px;
+}
 
 /* footer */
 footer{
-  margin-top: 5px;
   /* debug */
   background-color: lightblue;
-  height: 200px;
+  height: 80px;
   /* fine debug */
 }
